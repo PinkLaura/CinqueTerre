@@ -48,6 +48,13 @@
     font-size: 0.85rem;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
 /*creo un contenitore e un flex*/
 .cont {
     max-width: 100%;
