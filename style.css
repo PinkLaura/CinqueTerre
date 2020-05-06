@@ -1,0 +1,95 @@
+/*importo i font (Comfortaa e Montserrat da google font, ananda da file)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600&display=swap');
+
+@font-face {
+    font-family: 'Ananda';
+    src: 
+        url('/font/Ananda.ttf') format('truetype'),
+        url('/font/Ananda.woff2') format('woff2'),
+        url('/font/Ananda.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Creo delle classi con cui assegnare i font*/
+
+.evidenza {
+    font-family: 'Comfortaa', cursive;
+    color: #31b5bd;
+}
+
+.evidenzaScuro {
+    font-family: 'Comfortaa', cursive;
+    color: #267075;
+}
+
+.titolo {
+    font-family: "Ananda";
+    color: white;
+    font-size: 5rem;
+}
+
+.sottotitolo {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size:1.5rem;
+}
+
+/*mini reset generale*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+/*creo un contenitore e un flex*/
+.cont {
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+}
+
+.contFlex{
+    display: flex;
+}
+
+
+/* HEADER */
+
+.menu {
+    margin: 0;
+    padding: 0 20%;
+
+    background-color: rgb(243, 235, 208);
+    vertical-align: middle;
+    justify-content: space-between;
+
+    position: sticky;
+}
+
+.logoDiv img {
+    max-width: 70px;
+}
+
+.menuElementi{
+    margin: 15px 30px;
+
+    float: right;
+    vertical-align: middle;
+}
+
+.menuElemento{
+    padding: 30px;
+    display: inline-block;
+    padding: 5px 20px;
+
+    font-weight: 700;
+}
+
+.menuElemento:hover, .menuElemento:active{
+    color: #267075;
+}
+
