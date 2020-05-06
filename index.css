@@ -1,0 +1,16 @@
+.copertina img {
+    position: relative;
+    top: -20rem;
+
+    z-index: -2;
+}
+
+.copertina .testi{
+    position: relative;
+    top: 20rem;
+}
+
+
+.copertina img:before {
+    
+}
