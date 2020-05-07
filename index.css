@@ -1,11 +1,47 @@
-.copertina img {
-    position: relative;
-    top: -20rem;
+/*.copertina img {
+   position: relative;
+    top: -30rem;
 
     z-index: -2;
+    float: left;
+
+}*/
+
+.copertina{
+    background-image: url("/immagini/copertine/copertinaHome.jpg") 
+    no-repeat center center;
 }
 
 .copertina .testi{
     position: relative;
-    top: 20rem;
+    text-align: center;
+
+    padding: 12.2rem 0;
+}
+
+.copertina .icon{
+    padding-top: 6rem;
+    z-index: inherit;
+
+    font-size: 3rem;
+    
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.schedeNumeri{
+    margin: 0 20%; 
+    justify-content: space-between;
+    text-align: center;
+}
+
+.schedaNumero{
+    max-width: 30%;
+}
+
+.numero {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #31b5bd;
+    display: block;
+
 }

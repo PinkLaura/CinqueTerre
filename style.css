@@ -46,6 +46,7 @@
     padding: 0;
     font-family: "Montserrat";
     font-size: 0.85rem;
+
 }
 
 a{
@@ -105,7 +106,31 @@ header {
     font-weight: 700;
 }
 
-.menuElemento:hover, .menuElemento:active{
+.menuElemento:hover, .menuElementi .active{
     color: #267075;
 }
 
+.tendina{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 0;
+    display: none;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+
+
+ul li:hover > ul,
+ul li ul:hover, li:focus-within {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+
+  max-width: 140px;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}

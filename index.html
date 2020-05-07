@@ -32,8 +32,14 @@
 
             <nav class="menuElementi">
                 <ul>
-                    <li class="menuElemento evidenza"> <a href="index.html"> Home </a> </li>
-                    <li class="menuElemento evidenza"> <a href="patrimonio.html"> Patrimonio </a> </li>
+                    <li class="menuElemento evidenza active"> <a href="index.html"> Home </a> </li>
+                    <li class="menuElemento evidenza"> <a href="patrimonio.html"> Patrimonio </a> 
+                        <ul class="tendina">
+                            <li class="menuElemento evidenza"><a href=""> Descrizione </a></li>
+                            <li class="menuElemento evidenza"><a href=""> L'Italia </a></li>
+                            <li class="menuElemento evidenza"><a href=""> Scheda Tecnica </a></li>
+                        </ul>
+                    </li>
                     <li class="menuElemento evidenza"> <a href="meraviglie.html"> Meraviglie </a> </li>
                     <li class="menuElemento evidenza"> <a href="gallery.html"> Gallery </a> </li>
                 </ul>
@@ -48,13 +54,36 @@
         <div class="testi">
             <div class="sottotitolo">Scopri la magia delle</div>
             <div class="titolo">Cinque Terre</div>
+
+            <i class="fas fa-chevron-circle-down icon"></i>
+            
         </div>
         
-        <img src="immagini/copertine/copertinaHome.jpg" class="cont"/>
+        
+        <!--<img src="immagini/copertine/copertinaHome.jpg" class="cont"/>-->
 
     </div>
 
+    <div class="cont">
+        <div class="contFlex schedeNumeri">
+            <div class="schedaNumero">
+                <span class="numero">618</span>
+                Diverse specie vegetali in un unico tratto di costa
+            </div>
 
+            <div class="schedaNumero">
+                <span class="numero">6</span>
+                Splendidi borghi marittimi tutti da scoprire
+            </div>
+
+            <div class="schedaNumero">
+                <span class="numero">120</span>
+                Chilometri di sentieri serpeggianti fra vigne e rocce
+            </div>
+
+        </div>
+    </div>
+    
 
 </body>
 
