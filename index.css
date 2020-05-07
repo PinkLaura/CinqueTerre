@@ -4,7 +4,8 @@
 
     z-index: -2;
     min-height: 85%;
-    width: height;
+    Object-fit: cover;
+    
 }
 
 .copertina{
