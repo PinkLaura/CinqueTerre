@@ -80,6 +80,7 @@ html {
 
 .contFlex{
     display: flex;
+    align-items: center;
 }
 
 /*Impostazioni generali per i due diversi tipi di button*/
@@ -89,7 +90,7 @@ html {
    appearance: button;
 
     width: 180px;
-    height: 50px;
+    padding: 14px 0;
 
     font-weight: bold;
     font-size: 0.9rem;

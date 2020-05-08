@@ -64,3 +64,27 @@
     background-color: rgba(250, 217, 158, 60%);
 }
 
+/*Striscia con immagine*/
+
+.schedeImmagini {
+    padding: 20vh 20%;
+    text-align: center;
+}
+
+.schedeImmagini .contFlex{
+    justify-content: space-between;
+
+    margin-bottom: 5%;
+}
+
+.schedaImmagine {
+    max-width: 28%;
+}
+
+.schedaImmagine img {
+    width: 100%;
+    border-radius: 50%;
+
+    padding: 20px;
+}
+
