@@ -1,6 +1,6 @@
 /*importo i font (Comfortaa e Montserrat da google font, ananda da file)*/
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600&family=Arizonia&display=swap');
 
 @font-face {
     font-family: 'Ananda';
@@ -12,20 +12,10 @@
     font-style: normal;
 }
 
-/*Creo delle classi con cui assegnare i font*/
-
-.evidenza {
-    font-family: 'Comfortaa', cursive;
-    color: #31b5bd;
-}
-
-.evidenzaScuro {
-    font-family: 'Comfortaa', cursive;
-    color: #267075;
-}
+/*Creo delle classi con cui assegnare la gerachia dei font*/
 
 .titolo {
-    font-family: "Ananda";
+    font-family: "Ananda", "Arizonia";
     color: white;
     font-size: 7rem;
     text-align: center;
@@ -39,13 +29,33 @@
     text-align: center;
 }
 
-/*mini reset generale*/
+.evidenzaChiaro {
+    font-family: 'Comfortaa', cursive;
+    color: #31b5bd;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    display: block;
+    padding: 10px;
+}
+
+.evidenzaScuro {
+    font-family: 'Comfortaa', cursive;
+    color: #267075;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    display: block;
+    padding: 10px;
+}
+
+/*mini reset generale e impostazioni generali*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
-    font-size: 0.85rem;
+    color: #5d5d5d;
 }
 
 a{
@@ -53,6 +63,11 @@ a{
     color: inherit;
     font-family: inherit;
     font-weight: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 /*creo un contenitore e un flex*/
@@ -67,12 +82,55 @@ a{
     display: flex;
 }
 
+/*Impostazioni generali per i due diversi tipi di button*/
+.bottone{
+   -webkit-appearance: button;
+   -moz-appearance:    button;
+   appearance: button;
+
+    width: 180px;
+    height: 50px;
+
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    
+    border: 2px solid;
+    border-radius: 12px;
+    
+    background-color: rgba(0,0,0,0);
+    transition-duration: 0.4s;
+}
+
+.bottoneChiaro{
+    border-color: #31b5bd;
+    color: #31b5bd;
+
+}
+
+.bottoneScuro{
+    border-color: #267075;
+    color: #267075;
+}
+
+.bottoneChiaro:hover{
+    background-color: #31b5bd;
+    color: white;
+    cursor: pointer;
+}
+
+.bottoneScuro:hover{
+    background-color: #267075;
+    color: white;
+    cursor: pointer;
+}
 
 /* MENU */
 header {
     position: sticky;
     top: 0;
     z-index: 20;
+
 }
 
 .menu {
@@ -82,7 +140,7 @@ header {
     background-color: white;
     vertical-align: middle;
     justify-content: space-between;
-    
+
 
 }
 
@@ -104,10 +162,13 @@ header {
     padding: 5px 20px;
 
     font-weight: 700;
+    font-size: 12px !important; 
+
 }
 
 .menuElemento:hover, .menuElementi .active{
     color: #267075;
+
 }
 
 .tendina{
@@ -136,3 +197,30 @@ ul li ul li {
   width: 100%;
 }
 
+
+/*COPERTINE DELLE PAGINE*/
+.copertina img {
+     position: absolute;
+     top: 0;
+ 
+     z-index: -2;
+     min-height: 85vh;
+     Object-fit: cover;
+     
+ }
+ 
+ .copertina .testi{
+     position: relative;
+     text-align: center;
+ 
+     padding: 20vh 0;
+ }
+ 
+ .copertina .icon{
+     padding-top: 6rem;
+     z-index: inherit;
+ 
+     font-size: 3rem;
+     
+     color: rgba(255, 255, 255, 0.75);
+ }
