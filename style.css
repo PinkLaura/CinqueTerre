@@ -213,7 +213,8 @@ ul li ul li {
      position: relative;
      text-align: center;
  
-     padding: 20vh 0;
+     padding-top: 20vh;
+     min-height: 85vh;
  }
  
  .copertina .icon{
