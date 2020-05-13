@@ -1,0 +1,96 @@
+/*aggiorno l'immagine di copertina della galleria*/
+.copertina {
+    background: url(../immagini/copertine/copertinaGallery2.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+}
+
+
+/*Galleria di immagini*/
+.contGalleria{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.galleria {
+    position: relative;
+
+    max-width: 55rem;
+
+    margin: auto;
+    padding: 50px;
+
+    justify-content: center;
+}
+
+
+.colGalleria{
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    justify-content: center;
+}
+
+.rigaGalleria{
+
+    display: flex;
+    flex-direction: row;
+
+    max-width: 100%;
+}
+
+#gal1, #gal2 {
+    max-width: 14.64rem;
+}
+
+#gal3, #gal6 {
+    max-width: 30.18rem;
+}
+
+#gal4, #gal5{
+    max-height: 13.40rem;
+}
+
+.galleria img {
+    margin: 15px;
+    position: relative;
+}
+
+.galleria .sfondo {
+    position: absolute;
+    top: 10px;
+
+    max-width: 60rem;
+    z-index: -2;
+}
+
+/*Effetti hover per animare la galleria*/
+
+.galleria img:hover{
+    transform:scale(1.5,1.5);
+    z-index: 3;
+    transition-duration: 20ms;
+    box-shadow: 5px 5px 20px 10px #00000099;
+}
+
+/*Box Aggiungi una tua foto con link all'e-mail*/
+.boxAggiungiFoto {
+    margin: 5rem auto;
+    background-color: #fad99e;
+
+    max-width: 55rem;
+    padding: 30px;
+
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.boxAggiungiFoto a{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}

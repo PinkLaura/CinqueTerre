@@ -1,9 +1,20 @@
+/*Adattiamo l'header alla home (titolo sotto sottotitolo)*/
+.copertina .icon{
+    padding-top: 5%;
+}
+
+.sottotitolo{
+    padding-top: 0;
+}
 
 /*NUMERI CON DIDASCALIA*/
 .schedeNumeri{
-    padding: 5% 20%; 
+    padding: 30px 20px; 
     justify-content: space-between;
     text-align: center;
+    margin: auto;
+
+    max-width: 55rem;
 }
 
 .schedaNumero{
@@ -25,14 +36,16 @@
     display: flex;
     align-items: center;
 
-    height: 70vh;
+    min-height: 575px;
 }
 
 .sitoUnesco .contFlex {
-    margin: 0 20%; /*25vh*/
+    margin: auto; 
+    padding: 20px;
     justify-content: space-between;
     text-align: left;
 
+    max-width: 55rem;
 }
 
 .sitoUnesco .testo {
@@ -52,7 +65,7 @@
     z-index: -2;
 
     max-width: 100X;
-    min-height: 70vh;
+    min-height: 575px;
     Object-fit: cover;
 }
 
@@ -67,8 +80,11 @@
 /*Striscia con immagine*/
 
 .schedeImmagini {
-    padding: 20vh 20%;
+    padding: 10vh 0;
     text-align: center;
+    margin: auto;
+
+    max-width: 55rem;
 }
 
 .schedeImmagini .contFlex{
@@ -78,7 +94,7 @@
 }
 
 .schedaImmagine {
-    max-width: 28%;
+    max-width: 30%;
 }
 
 .schedaImmagine img {

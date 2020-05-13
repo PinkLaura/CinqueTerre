@@ -19,6 +19,8 @@
     color: white;
     font-size:1.5rem;
     text-align: center;
+
+    padding-top: 2rem;
 }
 
 .evidenzaChiaro {
@@ -120,20 +122,23 @@ html {
 
 /* MENU */
 header {
+
     position: sticky;
     top: 0;
     z-index: 20;
 
+    background-color: white;
+
 }
 
 .menu {
-    margin: 0;
-    padding: 0 20%;
+    margin: auto;
+    padding: 0 20px;
 
-    background-color: white;
     vertical-align: middle;
     justify-content: space-between;
 
+    max-width: 55em;
 
 }
 
@@ -192,26 +197,23 @@ ul li ul li {
 
 
 /*COPERTINE DELLE PAGINE*/
-.copertina img {
-     position: absolute;
-     top: 0;
- 
-     z-index: -2;
-     min-height: 85vh;
-     Object-fit: cover;
-     
+ .copertina {
+     background: url(../immagini/copertine/copertinaHome.jpg);
+     background-size: cover;
+     background-origin: border-box;
+     background-position: center;
  }
  
  .copertina .testi{
      position: relative;
      text-align: center;
  
-     padding-top: 20vh;
-     min-height: 85vh;
+     padding: 20vh 0;
+     height: 85vh;
  }
  
  .copertina .icon{
-     padding-top: 6rem;
+     padding-top: 5%;
      z-index: inherit;
  
      font-size: 3rem;
@@ -234,7 +236,9 @@ ul li ul li {
 
 .fooSchede {
     padding: 20px 20px;
-    margin: 0 20%;
+    margin: auto;
+
+    max-width: 55rem;
 
     align-items: flex-start;
 }
