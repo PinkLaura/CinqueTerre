@@ -1,6 +1,6 @@
 /*aggiorno l'immagine di copertina della galleria*/
 .copertina {
-    background: url(../immagini/copertine/copertinaGallery2.jpg);
+    background: url(../immagini/copertine/copertinaGallery.jpg);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
