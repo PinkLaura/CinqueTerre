@@ -13,8 +13,8 @@
 
     <!-- Importo i CSS esterni -->
     <style>
-        @import url("style.css");
-        @import url("index.css");
+        @import url("stili/style.css");
+        @import url("stili/home.css");
     </style>
 
     <!-- Importo font awesome -->
@@ -34,15 +34,15 @@
             <nav class="menuElementi">
                 <ul>
                     <li class="menuElemento evidenzaChiaro active"> <a href="index.html"> Home </a> </li>
-                    <li class="menuElemento evidenzaChiaro"> <a href="patrimonio.html"> Patrimonio </a>
+                    <li class="menuElemento evidenzaChiaro"> <a href="pagine/patrimonio.html"> Patrimonio </a>
                         <ul class="tendina">
                             <li class="menuElemento evidenzaChiaro"><a href=""> Descrizione </a></li>
                             <li class="menuElemento evidenzaChiaro"><a href=""> L'Italia </a></li>
                             <li class="menuElemento evidenzaChiaro"><a href=""> Scheda Tecnica </a></li>
                         </ul>
                     </li>
-                    <li class="menuElemento evidenzaChiaro"> <a href="meraviglie.html"> Meraviglie </a> </li>
-                    <li class="menuElemento evidenzaChiaro"> <a href="gallery.html"> Gallery </a> </li>
+                    <li class="menuElemento evidenzaChiaro"> <a href="pagine/meraviglie.html"> Meraviglie </a> </li>
+                    <li class="menuElemento evidenzaChiaro"> <a href="pagine/gallery.html"> Gallery </a> </li>
                 </ul>
             </nav>
         </div>
@@ -67,11 +67,11 @@
 
     </div>
 
-    <a id="ancora"></a>
+    <a id="ancoraHome"></a>
 
     <!-- Numeri con didascalia -->
     <div class="cont">
-        
+
         <div class="contFlex schedeNumeri">
             <div class="schedaNumero">
                 <span class="numero">618</span>
@@ -87,7 +87,7 @@
                 <span class="numero">120</span>
                 Chilometri di sentieri serpeggianti fra vigne e rocce
             </div>
-            
+
         </div>
     </div>
 
@@ -117,35 +117,107 @@
 
     </div>
 
+    <!-- Striscia immagini di riferimento alle meraviglie con call to action-->
     <div class="cont schedeImmagini">
         <div class="contFlex">
 
-            <div class = "schedaImmagine">
+            <div class="schedaImmagine">
                 <img src="immagini/strisciaImmagini/trekking.jpg">
                 Passeggia lungo la <span class="evidenzaChiaro">Via dell'Amore</span>
             </div>
 
-            <div class = "schedaImmagine">
+            <div class="schedaImmagine">
                 Cammina sulle mura del castello di<span class="evidenzaChiaro">Portovenere</span>
                 <img src="immagini/strisciaImmagini/portovenere.jpg">
             </div>
 
-            <div class = "schedaImmagine">
-                <img src="immagini/strisciaImmagini/trekking.jpg">
+            <div class="schedaImmagine">
+                <img src="immagini/strisciaImmagini/tramonto.jpg">
                 Soggiorna a Riomaggiore e goditi il <span class="evidenzaChiaro">tramonto sul mare</span>
             </div>
 
         </div>
 
-        
-            <a class="bottone bottoneChiaro" href="meraviglie.html">
-                Scopri di più
-            </a>
-        
-        
+
+        <a class="bottone bottoneChiaro" href="pagine/meraviglie.html">
+            Scopri di più
+        </a>
+
     </div>
 
-    
+
+    <footer>
+        <div class="fooSchede cont contFlex">
+
+            <div class="fooScheda prima">
+                <div class="fooTitolo">
+                    CONTATTACI
+                </div>
+                <div class="fooDidascalia">
+                    Se hai consigli o fotografie da inviarci, clicca qui
+
+                    <a href="mailto:l.nesossi@campus.unimib.it">
+                        <div class="fooIcona">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="fooScheda">
+                <div class="fooTitolo">
+                    SCHEDA TECNICA
+                </div>
+                <div class="fooDidascalia">
+                    Scarica la scheda tecnica del patrimonio in versione pdf
+                    <div class="fooIcona">
+                        <i class="fas fa-download"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fooScheda">
+                <div class="fooTitolo">
+                    STAY TUNED
+                </div>
+                <div class="fooDidascalia">
+                    Segui i social di Unesco per rimanere sempre aggiornato
+
+                    <div class="fooIcona">
+
+                        <a href="https://www.facebook.com/ParcoCinqueTerre/">
+                            <i class="fab fa-facebook-square"></i></a>
+
+                        <a href="https://www.instagram.com/parcocinqueterre/">
+                            <i class="fab fa-instagram-square"></i></a>
+
+                        <a href="https://twitter.com/parco5terre">
+                            <i class="fab fa-twitter-square"></i></a>
+
+                        <a href="http://www.parconazionale5terre.it/">
+                            <i class="fas fa-globe"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fooScheda ultima">
+                <div class="fooTitolo">
+                    FONTI
+                </div>
+                <div class="fooDidascalia">
+                    Tutte le immagini sono state prese da Unsplash.com. Grazie a tutti gli autori per queste fotografie
+                    spettacolari.
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
 
 </body>
 

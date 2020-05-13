@@ -1,16 +1,8 @@
 /*importo i font (Comfortaa e Montserrat da google font, ananda da file)*/
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600&family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Montserrat:wght@400;600;700&family=Arizonia&display=swap');
+@import url('https://fonts.cdnfonts.com/css/ananda'); 
 
-@font-face {
-    font-family: 'Ananda';
-    src: 
-        url('/font/Ananda.ttf') format('truetype'),
-        url('/font/Ananda.woff2') format('woff2'),
-        url('/font/Ananda.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*Creo delle classi con cui assegnare la gerachia dei font*/
 
@@ -226,3 +218,58 @@ ul li ul li {
      
      color: rgba(255, 255, 255, 0.75);
  }
+
+
+ /*FOOTER*/
+
+ footer{
+     background-color: #fad99e;
+     font-size: 11px;
+}
+
+.fooTitolo {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.fooSchede {
+    padding: 20px 20px;
+    margin: 0 20%;
+
+    align-items: flex-start;
+}
+
+.fooScheda {
+    text-align: center;
+    padding: 20px;
+
+    max-width: 25%;
+
+    box-sizing: border-box;
+
+    border-left: 1.5px solid #5d5d5d99;
+
+}
+
+.fooSchede .prima{
+    border-left: none;
+}
+
+.fooDidascalia {
+    padding-top: 5px;
+}
+
+.fooTitolo {
+    padding-bottom: 5px;
+}
+
+.fooIcona{
+    font-size: 2em;
+    display: block;
+    padding: 2px;
+    padding-top: 8px;
+}
+
+footer .fab:hover, footer .fas:hover{
+    color: #31b5bd;
+}
