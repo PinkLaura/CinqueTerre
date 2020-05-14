@@ -48,7 +48,7 @@
     max-width: 55rem;
 }
 
-.sitoUnesco .testo {
+.sitoUnesco .shadowText {
     max-width: 50%;
 }
 
@@ -64,18 +64,11 @@
     top:0;
     z-index: -2;
 
-    max-width: 100X;
+    max-width: 100%;
     min-height: 575px;
     Object-fit: cover;
 }
 
-.sitoUnesco .testo {
-    box-shadow: 0 0 20px 20px rgba(250, 217, 158, 60%);
-    -webkit-box-shadow: 0 0 20px 20px rgba(250, 217, 158, 60%);
-    -moz-box-shadow: 0 0 20px 20px rgba(250, 217, 158, 60%);
-
-    background-color: rgba(250, 217, 158, 60%);
-}
 
 /*Striscia con immagine*/
 

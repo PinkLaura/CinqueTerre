@@ -278,3 +278,13 @@ footer .fab:hover, footer .fas:hover{
     transform: scale(1.2,1.2);
     transition-duration: 0.2ms;
 }
+
+/**/
+
+.shadowText {
+    box-shadow: 0 0 50px 50px rgba(250, 217, 158, 70%);
+    -webkit-box-shadow: 0 0 50px 50px rgba(250, 217, 158, 70%);
+    -moz-box-shadow: 0 0 50px 50px rgba(250, 217, 158, 70%);
+
+    background-color: rgba(250, 217, 158, 70%);
+}

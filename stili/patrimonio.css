@@ -1,0 +1,35 @@
+/*aggiorno l'immagine di copertina delle meraviglie*/
+.copertina {
+    background: url(../immagini/copertine/copertinaPatrimonio.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+}
+
+.contCountry {
+    max-width: 100%;
+    margin: 100px 0;
+    
+    background: url(../immagini/sfondi/sfondoPaese.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+        
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+
+.country{
+    max-width: 30rem;
+    margin: auto;
+    padding: 5rem 0 9rem;
+}
+
+.countryTitle{
+    font-family: 'Ananda';
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
