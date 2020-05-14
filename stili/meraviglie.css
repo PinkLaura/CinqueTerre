@@ -1,0 +1,119 @@
+/*aggiorno l'immagine di copertina delle meraviglie*/
+.copertina {
+    background: url(../immagini/copertine/copertinaMeraviglie.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+}
+
+
+/*Definisco gli stili delle schede*/
+.schedeMeraviglie{
+    max-width: 55rem;
+    margin: 5rem auto;
+}
+
+.schedaMeraviglia{
+    align-items: center;
+    vertical-align: middle;
+
+    padding: 20px;
+    position: relative;
+}
+
+.schedeMeraviglie .testi{
+    max-width: 65%;
+    padding: 30px;
+}
+
+.schedeMeraviglie img{
+    max-width: 30%;
+}
+
+/*Le schede orientate a destra hanno l'immagine a destra e l'orientamento del testo diverso*/
+.schedeMeraviglie .dx {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.schedeMeraviglie .cit {
+    font-style: italic;
+}
+
+.schedeMeraviglie .autore{
+    display: block;
+    text-align: right;
+    padding-top: 0.5rem;
+}
+
+.schedeMeraviglie .descrizione {
+    padding-top: 1rem;
+}
+
+/*Ora definisco singolarmente i blocchi decorativi*/
+#block1{
+    height: 14rem;
+    width: 12rem;
+
+    background-color: #fad99e ;
+
+    position: absolute;
+    left: -2.5rem;
+    bottom: -1.5rem;
+
+    z-index: -1;
+    
+}
+
+#block2{
+    height: 14rem;
+    width: 9rem;
+
+    background-color: #31b5bd;
+
+    position: absolute;
+    right: -3rem;
+
+    z-index: -1;
+}
+
+#block3{
+    height: 13rem;
+    width: 9rem;
+
+    background-color: #267075 ;
+
+    position: absolute;
+    top: 5rem;
+    left: -3rem;
+
+    z-index: -1;
+}
+
+#block4{
+    height: 10rem;
+    width: 16.2rem;
+
+    background-color: #31b5bd ;
+
+    position: absolute;
+    bottom: -1.5rem;
+    right: -3rem;
+
+    z-index: -1;
+}
+
+#block5{
+    height: 15rem;
+    width: 10rem;
+
+    background-color: #fad99e ;
+
+    position: absolute;
+    left: -3.5rem;
+    top: -1rem;
+
+    z-index: -1;
+}
+
+

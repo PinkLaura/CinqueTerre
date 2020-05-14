@@ -116,7 +116,7 @@ html {
 
 .bottoneScuro:hover{
     background-color: #267075;
-    color: white;
+    color: #fad99e;
     cursor: pointer;
 }
 
@@ -275,5 +275,6 @@ ul li ul li {
 }
 
 footer .fab:hover, footer .fas:hover{
-    color: #31b5bd;
+    transform: scale(1.2,1.2);
+    transition-duration: 0.2ms;
 }
