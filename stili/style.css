@@ -4,7 +4,9 @@
 
 @font-face {
     font-family: Ananda;
-    src: url('/font/Ananda.ttf');
+    src: url('/font/Ananda.ttf') format('truetype'),
+        url('/font/Ananda.woff') format('woff'),
+        url('/font/Ananda.woff2') format('woff2');
  }
 
 /*Creo delle classi con cui assegnare la gerachia dei font*/
