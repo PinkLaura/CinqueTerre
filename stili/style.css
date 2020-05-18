@@ -152,6 +152,7 @@ header {
 .logoDiv img {
     max-width: 4rem;
     padding: 0.4rem;
+    height: auto;
 }
 
 .menuElementi, .menu ul, .menu a {
