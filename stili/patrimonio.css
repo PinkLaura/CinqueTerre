@@ -220,6 +220,6 @@
     left: -15px;
 }
 
-.timeline .bottone{
+.timeline:last-child{
     margin: 3rem auto;
 }
