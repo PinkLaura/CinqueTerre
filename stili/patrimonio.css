@@ -53,32 +53,6 @@
     padding: 1rem;
 }
 
-#descrizionePatrimonio:before {
-    content: "";
-    background-color: #fad99e;
-    width: 8rem;
-    height: 10rem;
-
-    position: absolute;
-    bottom: 2rem;
-    right: -1rem;
-
-    z-index: -2;
-}
-
-
-#descrizionePatrimonio:after {
-    content: "";
-    background-color: #31b5bd;
-    width: 6rem;
-    height: 4rem;
-
-    position: absolute;
-    top: 4rem;
-    left: 0;
-
-    z-index: -2;
-}
 
 /*SCHEDA TECNICA*/
 #techSheet {
@@ -178,9 +152,10 @@
     width: 1.5px;
     background: #31b5bd;
 
-    top: 4rem;
+    top: 0.5rem;
+    bottom: 0.5rem; 
     left:calc(50%); 
-    bottom: 10rem;
+
 }
 
 /*spazio sotto*/
@@ -220,6 +195,12 @@
     left: -15px;
 }
 
-.timeline:last-child{
-    margin: 3rem auto;
+
+.contFlex .bottoneChiaro {
+    margin: 1.5rem auto 4rem;
 }
+
+.contFlex .evidenzaChiaro{
+    margin: 0 auto;
+}
+

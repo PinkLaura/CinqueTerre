@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: Ananda;
-    src: url('/font/Ananda.ttf') format('truetype'),
-        url('/font/Ananda.woff') format('woff'),
-        url('/font/Ananda.woff2') format('woff2');
+    src: url('../font/Ananda.ttf') format('truetype'),
+        url('../font/Ananda.woff') format('woff'),
+        url('../font/Ananda.woff2') format('woff2');
  }
 
 /*Creo delle classi con cui assegnare la gerachia dei font*/
@@ -70,7 +70,7 @@ a{
 
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /*creo un contenitore e un flex*/
@@ -257,7 +257,7 @@ header {
 
  footer{
      background-color: #fad99e;
-     font-size: 11px;
+     font-size: 0.75rem;
 }
 
 .fooTitolo {

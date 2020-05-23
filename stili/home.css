@@ -31,6 +31,11 @@
     align-items: center;
 
     min-height: 575px;
+
+    background: url(../immagini/sfondi/sfondoHome.png);
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
 }
 
 .sitoUnesco .contFlex {
@@ -51,8 +56,9 @@
     align-items: center;
 }
 
+/*
 .sitoUnesco img {
-    /*clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 30%);*/
+    /*clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 30%);*
 
     position: absolute;
     top:0;
@@ -61,7 +67,7 @@
     max-width: 100%;
     min-height: 575px;
     Object-fit: cover;
-}
+} */
 
 
 /*Striscia con immagine*/
