@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- Titolo -->
+    <!-- title -->
     <title>Le Cinque Terre</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="immagini/favicon.png" type="image/png" />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
 
     <!-- Meta tags -->
     <meta content="Scopri la magia delle Cinque Terre" name="description">
@@ -16,8 +16,8 @@
 
     <!-- Importo i CSS esterni -->
     <style>
-        @import url("stili/style.css");
-        @import url("stili/home.css");
+        @import url("css/style.css");
+        @import url("css/home.css");
     </style>
 
     <!-- Importo font awesome -->
@@ -32,25 +32,25 @@
 
             <a href="index.html">
                 <div class="logoDiv">
-                    <img src="immagini/Logo.png" alt="Logo stilizzato rappresentante la scogliera di manarola">
+                    <img src="img/Logo.png" alt="Logo stilizzato rappresentante la scogliera di manarola">
                 </div>
             </a>
 
-            <nav class="menuElementi">
+            <nav class="menuElements">
                 <ul>
-                    <li class="menuElemento evidenzaChiaro active"> <a href="index.html"> Home </a> </li>
-                    <li class="menuElemento evidenzaChiaro"> <a href="pagine/patrimonio.html"> Patrimonio </a>
-                        <ul class="tendina">
-                            <li class="menuElemento evidenzaChiaro"><a href="pagine/patrimonio.html#descriptionAnchor">
+                    <li class="menuElement lightEmphasis active"> <a href="index.html"> Home </a> </li>
+                    <li class="menuElement lightEmphasis"> <a href="pages/patrimonio.html"> Patrimonio </a>
+                        <ul class="dropdown">
+                            <li class="menuElement lightEmphasis"><a href="pages/patrimonio.html#descriptionAnchor">
                                     Descrizione </a></li>
-                            <li class="menuElemento evidenzaChiaro"><a href="pagine/patrimonio.html#italyAnchor">
+                            <li class="menuElement lightEmphasis"><a href="pages/patrimonio.html#italyAnchor">
                                     L'Italia </a></li>
-                            <li class="menuElemento evidenzaChiaro"><a href="pagine/patrimonio.html#techSheetAnchor">
+                            <li class="menuElement lightEmphasis"><a href="pages/patrimonio.html#techSheetAnchor">
                                     Scheda Tecnica </a></li>
                         </ul>
                     </li>
-                    <li class="menuElemento evidenzaChiaro"> <a href="pagine/meraviglie.html"> Meraviglie </a> </li>
-                    <li class="menuElemento evidenzaChiaro "> <a href="pagine/gallery.html"> Gallery </a> </li>
+                    <li class="menuElement lightEmphasis"> <a href="pages/meraviglie.html"> Meraviglie </a> </li>
+                    <li class="menuElement lightEmphasis "> <a href="pages/gallery.html"> Gallery </a> </li>
                 </ul>
             </nav>
         </div>
@@ -58,12 +58,12 @@
 
 
 
-    <!-- Immagine e scritta di copertina -->
-    <div class="copertina cont">
+    <!-- Immagine e scritta di cover -->
+    <div class="cover cont">
 
-        <div class="testi">
-            <div class="sottotitolo">Scopri la magia delle</div>
-            <div class="titolo">Cinque Terre</div>
+        <div class="text">
+            <div class="subtitle">Scopri la magia delle</div>
+            <div class="title">Cinque Terre</div>
 
             <a href="#ancora">
                 <i class="fas fa-chevron-circle-down icon"></i>
@@ -78,19 +78,19 @@
     <!-- Numeri con didascalia -->
     <div class="cont">
 
-        <div class="contFlex schedeNumeri">
-            <div class="schedaNumero">
-                <span class="numero">618</span>
+        <div class="contFlex numberCards">
+            <div class="numberCard">
+                <span class="number">618</span>
                 Diverse specie vegetali in un unico tratto di costa
             </div>
 
-            <div class="schedaNumero">
-                <span class="numero">6</span>
+            <div class="numberCard">
+                <span class="number">6</span>
                 Splendidi borghi marittimi tutti da scoprire
             </div>
 
-            <div class="schedaNumero">
-                <span class="numero">120</span>
+            <div class="numberCard">
+                <span class="number">120</span>
                 Chilometri di sentieri serpeggianti fra vigne e rocce
             </div>
 
@@ -98,18 +98,18 @@
     </div>
 
     <!-- Striscia con call to action sito UNESCO-->
-    <div class="sitoUnesco cont">
+    <div class="unescoDiv cont">
         <div class="contFlex">
             <div class="shadowText">
                 Le colline rocciose a picco sul mare, i villaggi di pescatori dai tipici colori liguri e le antiche
-                tradizioni di questi luoghi hanno fruttato a questi luoghi il titolo UNESCO di
-                <span class="evidenzaScuro"> Patrimonio dell’umanità </span>
+                tradizioni di questi luoghi hanno fruttato a questi luoghi il title UNESCO di
+                <span class="darkEmphasis"> Patrimonio dell’umanità </span>
                 in quanto testimonianza di come l'interazione armoniosa tra la gente e la natura possa produrre un
                 paesaggio di eccezionale qualità scenica.
             </div>
 
-            <div class="bottoneUnesco">
-                <a class="bottone bottoneScuro" href="http://www.unesco.it/it/PatrimonioMondiale/Detail/121">
+            <div class="buttonUnesco">
+                <a class="button darkButton" href="http://www.unesco.it/it/PatrimonioMondiale/Detail/121">
                     Vai al sito UNESCO
                 </a>
             </div>
@@ -118,29 +118,29 @@
 
     </div>
 
-    <!-- Striscia immagini di riferimento alle meraviglie con call to action-->
-    <div class="cont schedeImmagini">
+    <!-- Striscia img di riferimento alle meraviglie con call to action-->
+    <div class="cont imageCards">
         <div class="contFlex">
 
-            <div class="schedaImmagine">
-                <img src="immagini/strisciaImmagini/trekking.jpg" title="Via dell'Amore" alt="fotografia di una montagna con un sentiero a picco sul mare">
-                Passeggia lungo la <span class="evidenzaChiaro">Via dell'Amore</span>
+            <div class="imageCard">
+                <img src="img/strisciaImmagini/trekking.jpg" title="Via dell'Amore" alt="fotografia di una montagna con un sentiero a picco sul mare">
+                Passeggia lungo la <span class="lightEmphasis">Via dell'Amore</span>
             </div>
 
-            <div class="schedaImmagine">
-                Cammina sulle mura del castello di<span class="evidenzaChiaro">Portovenere</span>
-                <img src="immagini/strisciaImmagini/portovenere.jpg" title="Portovenere" alt="fotografia di una chiesa a picco su una scogliera">
+            <div class="imageCard">
+                Cammina sulle mura del castello di<span class="lightEmphasis">Portovenere</span>
+                <img src="img/strisciaImmagini/portovenere.jpg" title="Portovenere" alt="fotografia di una chiesa a picco su una scogliera">
             </div>
 
-            <div class="schedaImmagine">
-                <img src="immagini/strisciaImmagini/tramonto.jpg" title="Riomaggiore" alt="fotografia del tramonto sul mare di riomaggiore">
-                Soggiorna a Riomaggiore e goditi il <span class="evidenzaChiaro">tramonto sul mare</span>
+            <div class="imageCard">
+                <img src="img/strisciaImmagini/tramonto.jpg" title="Riomaggiore" alt="fotografia del tramonto sul mare di riomaggiore">
+                Soggiorna a Riomaggiore e goditi il <span class="lightEmphasis">tramonto sul mare</span>
             </div>
 
         </div>
 
 
-        <a class="bottone bottoneChiaro" href="pagine/meraviglie.html">
+        <a class="button lightButton" href="pages/meraviglie.html">
             Scopri di più
         </a>
 
@@ -148,17 +148,17 @@
 
 
     <footer>
-        <div class="fooSchede cont contFlex">
+        <div class="fooCards cont contFlex">
 
-            <div class="fooScheda prima">
-                <div class="fooTitolo">
+            <div class="fooCard first">
+                <div class="fooTitle">
                     CONTATTACI
                 </div>
-                <div class="fooDidascalia">
+                <div class="fooCaption">
                     Se hai consigli o fotografie da inviarci, clicca qui
 
                     <a href="mailto:l.nesossi@campus.unimib.it">
-                        <div class="fooIcona">
+                        <div class="fooIcon">
                             <i class="fas fa-envelope"></i>
                         </div>
                     </a>
@@ -166,13 +166,13 @@
                 </div>
             </div>
 
-            <div class="fooScheda">
-                <div class="fooTitolo">
+            <div class="fooCard">
+                <div class="fooTitle">
                     SCHEDA TECNICA
                 </div>
-                <div class="fooDidascalia">
+                <div class="fooCaption">
                     Scarica la scheda tecnica del patrimonio in versione pdf
-                    <div class="fooIcona">
+                    <div class="fooIcon">
                         <a href="schedaTecnica.pdf" target="_blank">
                             <i class="fas fa-download"></i>
                         </a>
@@ -181,14 +181,14 @@
                 </div>
             </div>
 
-            <div class="fooScheda">
-                <div class="fooTitolo">
+            <div class="fooCard">
+                <div class="fooTitle">
                     STAY TUNED
                 </div>
-                <div class="fooDidascalia">
+                <div class="fooCaption">
                     Segui i social di Unesco per rimanere sempre aggiornato
 
-                    <div class="fooIcona">
+                    <div class="fooIcon">
 
                         <a href="https://www.facebook.com/ParcoCinqueTerre/" target="_blank">
                             <i class="fab fa-facebook-square"></i></a>
@@ -207,12 +207,12 @@
                 </div>
             </div>
 
-            <div class="fooScheda ultima">
-                <div class="fooTitolo">
+            <div class="fooCard">
+                <div class="fooTitle">
                     FONTI
                 </div>
-                <div class="fooDidascalia">
-                    Tutte le immagini sono state prese da Unsplash.com. Grazie a tutti gli autori per queste fotografie
+                <div class="fooCaption">
+                    Tutte le img sono state prese da Unsplash.com. Grazie a tutti gli autori per queste fotografie
                     spettacolari.
                 </div>
             </div>

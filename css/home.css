@@ -1,14 +1,14 @@
-/*Adattiamo l'header alla home (titolo sotto sottotitolo)*/
-.copertina .icon{
+/*Adattiamo l'header alla home (title sotto subtitle)*/
+.cover .icon{
     padding-top: 5%;
 }
 
-.sottotitolo{
+.subtitle{
     padding-top: 0;
 }
 
 /*NUMERI CON DIDASCALIA*/
-.schedeNumeri{
+.numberCards{
     padding: 30px 20px; 
     justify-content: space-between;
     text-align: center;
@@ -17,14 +17,14 @@
     max-width: 55rem;
 }
 
-.schedaNumero{
+.numberCard{
     max-width: 30%;
 }
 
 
 /*STRISCIA ROMBO con call to action UNESCO*/
 
-.sitoUnesco {
+.unescoDiv {
     position: relative;
 
     display: flex;
@@ -32,13 +32,13 @@
 
     min-height: 575px;
 
-    background: url(../immagini/sfondi/sfondoHome.png);
+    background: url(../img/sfondi/sfondoHome.png);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
 }
 
-.sitoUnesco .contFlex {
+.unescoDiv .contFlex {
     margin: auto; 
     padding: 20px;
     justify-content: space-between;
@@ -47,17 +47,17 @@
     max-width: 55rem;
 }
 
-.sitoUnesco .shadowText {
+.unescoDiv .shadowText {
     max-width: 50%;
 }
 
-.sitoUnesco .bottoneUnesco{
+.unescoDiv .buttonUnesco{
     display: flex;
     align-items: center;
 }
 
 /*
-.sitoUnesco img {
+.unescoDiv img {
     /*clip-path: polygon(0 0, 0 100%, 100% 70%, 100% 30%);*
 
     position: absolute;
@@ -72,7 +72,7 @@
 
 /*Striscia con immagine*/
 
-.schedeImmagini {
+.imageCards {
     padding: 10vh 0;
     text-align: center;
     margin: auto;
@@ -80,17 +80,17 @@
     max-width: 55rem;
 }
 
-.schedeImmagini .contFlex{
+.imageCards .contFlex{
     justify-content: space-between;
 
     margin-bottom: 5%;
 }
 
-.schedaImmagine {
+.imageCard {
     max-width: 30%;
 }
 
-.schedaImmagine img {
+.imageCard img {
     width: 100%;
     border-radius: 50%;
 

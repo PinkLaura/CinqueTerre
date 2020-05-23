@@ -11,7 +11,7 @@
 
 /*Creo delle classi con cui assegnare la gerachia dei font*/
 
-.titolo {
+.title {
     font-family: "Ananda", "Arizonia";
     color: white;
     font-size: 7rem;
@@ -19,7 +19,7 @@
     padding: 0.2rem;
 }
 
-.sottotitolo {
+.subtitle {
     font-family: 'Comfortaa', cursive;
     color: white;
     font-size:1.5rem;
@@ -28,7 +28,7 @@
     padding-top: 2rem;
 }
 
-.evidenzaChiaro {
+.lightEmphasis {
     font-family: 'Comfortaa', cursive;
     color: #31b5bd;
     font-weight: bold;
@@ -38,7 +38,7 @@
     padding: 10px;
 }
 
-.evidenzaScuro {
+.darkEmphasis {
     font-family: 'Comfortaa', cursive;
     color: #267075;
     font-weight: bold;
@@ -87,7 +87,7 @@ html {
 }
 
 /*Impostazioni generali per i due diversi tipi di button*/
-.bottone{
+.button{
    -webkit-appearance: button;
    -moz-appearance:    button;
    appearance: button;
@@ -108,24 +108,24 @@ html {
     display: inline-block;
 }
 
-.bottoneChiaro{
+.lightButton{
     border-color: #31b5bd;
     color: #31b5bd;
 
 }
 
-.bottoneScuro{
+.darkButton{
     border-color: #267075;
     color: #267075;
 }
 
-.bottoneChiaro:hover{
+.lightButton:hover{
     background-color: #31b5bd;
     color: white;
     cursor: pointer;
 }
 
-.bottoneScuro:hover{
+.darkButton:hover{
     background-color: #267075;
     color: #fad99e;
     cursor: pointer;
@@ -161,18 +161,18 @@ header {
     height: auto;
 }
 
-.menuElementi, .menu ul, .menu a {
+.menuElements, .menu ul, .menu a {
     margin: 0px;
     padding: 0px;
     border: none;
 
 }
 
-.menuElementi{
+.menuElements{
     float: right;
 }
 
-.menuElementi li{
+.menuElements li{
     list-style-type: none;
     float: left;
     position: relative;
@@ -183,18 +183,18 @@ header {
     font-size: 0.8rem; 
 }
 
-.menuElementi li a{
+.menuElements li a{
     display: block;
 
 }
 
-.menuElemento:hover, .menuElementi .active{
+.menuElement:hover, .menuElements .active{
     color: #267075;
 }
 
 
-/*Menù a tendina*/
-.tendina{
+/*Menù a dropdown*/
+.dropdown{
     position: absolute;
     background-color: white;
     opacity: 0;
@@ -208,7 +208,7 @@ header {
     opacity: 1;
 }
 
-.tendina li {
+.dropdown li {
     height: 0;
     padding: 0;
     overflow: hidden;
@@ -219,7 +219,7 @@ header {
     height: auto;
 }
 
-.tendina li a{
+.dropdown li a{
     width: 180px;
     padding: 0.5rem 15px 0;
     margin: 5px 0px;
@@ -227,15 +227,15 @@ header {
 }
 
 
-/*COPERTINE DELLE PAGINE*/
- .copertina {
-     background: url(../immagini/copertine/copertinaHome.jpg);
+/*COPERTINE DELLE pages*/
+ .cover {
+     background: url(../img/copertine/copertinaHome.jpg);
      background-size: cover;
      background-origin: border-box;
      background-position: center;
  }
  
- .copertina .testi{
+ .cover .text{
      position: relative;
      text-align: center;
  
@@ -243,7 +243,7 @@ header {
      height: 85vh;
  }
  
- .copertina .icon{
+ .cover .icon{
      padding-top: 5%;
      z-index: inherit;
  
@@ -260,12 +260,12 @@ header {
      font-size: 0.75rem;
 }
 
-.fooTitolo {
+.fooTitle {
     font-weight: 900;
     font-size: larger;
 }
 
-.fooSchede {
+.fooCards {
     padding: 20px 20px;
     margin: auto;
 
@@ -274,7 +274,7 @@ header {
     align-items: flex-start;
 }
 
-.fooScheda {
+.fooCard {
     text-align: center;
     padding: 20px;
 
@@ -286,19 +286,19 @@ header {
 
 }
 
-.fooSchede .prima{
+.fooCards .first{
     border-left: none;
 }
 
-.fooDidascalia {
+.fooCaption {
     padding-top: 5px;
 }
 
-.fooTitolo {
+.fooTitle {
     padding-bottom: 5px;
 }
 
-.fooIcona{
+.fooIcon{
     font-size: 2em;
     display: block;
     padding: 2px;
@@ -321,7 +321,7 @@ footer .fab:hover, footer .fas:hover{
     background-color: rgba(250, 217, 158, 70%);
 }
 
-.numero {
+.number {
     font-size: 6rem;
     font-weight: 900;
     color: #31b5bd;

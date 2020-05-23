@@ -1,19 +1,19 @@
-/*aggiorno l'immagine di copertina delle meraviglie*/
-.copertina {
-    background: url(../immagini/copertine/copertinaMeraviglie.jpg);
+/*aggiorno l'immagine di cover delle meraviglie*/
+.cover {
+    background: url(../img/copertine/copertinaMeraviglie.jpg);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
 }
 
-
-/*Definisco gli stili delle schede*/
-.schedeMeraviglie{
+ 
+/*Definisco gli css delle schede*/
+.wondersCards{
     max-width: 55rem;
     margin: 5rem auto;
 }
 
-.schedaMeraviglia{
+.wondersCard{
     align-items: center;
     vertical-align: middle;
 
@@ -21,32 +21,32 @@
     position: relative;
 }
 
-.schedeMeraviglie .testi{
+.wondersCards .text{
     max-width: 65%;
     padding: 30px;
 }
 
-.schedeMeraviglie img{
+.wondersCards img{
     max-width: 30%;
 }
 
 /*Le schede orientate a destra hanno l'immagine a destra e l'orientamento del testo diverso*/
-.schedeMeraviglie .dx {
+.wondersCards .dx {
     flex-direction: row-reverse;
     text-align: right;
 }
 
-.schedeMeraviglie .cit {
+.wondersCards .cit {
     font-style: italic;
 }
 
-.schedeMeraviglie .autore{
+.wondersCards .autore{
     display: block;
     text-align: right;
     padding-top: 0.5rem;
 }
 
-.schedeMeraviglie .descrizione {
+.wondersCards .descrizione {
     padding-top: 1rem;
 }
 

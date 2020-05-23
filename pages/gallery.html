@@ -1,0 +1,199 @@
+<!DOCTYPE html> <!-- DOCTYPE per HTML5 -->
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- title -->
+    <title>Gallery - Le Cinque Terre</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../img/favicon.png" type="image/png" />
+
+    <!-- Meta tags -->
+    <meta content="Le più belle img delle Cinque Terre" name="description">
+    <meta content="cinque terre, unesco, patrimonio, italia, liguria" name="keyword">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importo i CSS esterni -->
+    <style>
+        @import url("../css/style.css");
+        @import url("../css/gallery.css");
+    </style>
+
+    <!-- Importo font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Barra del menù -->
+    <header>
+        <div class="menu cont contFlex">
+
+            <a href="../index.html">
+                <div class="logoDiv">
+                    <img src="../img/Logo.png" alt="Logo stilizzato rappresentante una scogliera delle cinque terre" />
+                </div>
+            </a>
+
+            <nav class="menuElements">
+                <ul>
+                    <li class="menuElement lightEmphasis"> <a href="../index.html"> Home </a> </li>
+                    <li class="menuElement lightEmphasis"> <a href="patrimonio.html"> Patrimonio </a>
+                        <ul class="dropdown">
+                            <li class="menuElement lightEmphasis"><a
+                                    href="../pages/patrimonio.html#descriptionAnchor"> Descrizione </a></li>
+                            <li class="menuElement lightEmphasis"><a href="../pages/patrimonio.html#italyAnchor">
+                                    L'Italia </a></li>
+                            <li class="menuElement lightEmphasis"><a href="../pages/patrimonio.html#techSheetAnchor">
+                                    Scheda Tecnica </a></li>
+                        </ul>
+                    </li>
+                    <li class="menuElement lightEmphasis"> <a href="meraviglie.html"> Meraviglie </a> </li>
+                    <li class="menuElement lightEmphasis active"> <a href="gallery.html"> Gallery </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cover cont">
+
+        <div class="text">
+            <div class="title">Gallery</div>
+            <div class="subtitle">Le img più belle di questo angolo di paradiso</div>
+
+
+            <a href="#ancora">
+                <i class="fas fa-chevron-circle-down icon"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <a id="ancora"></a>
+
+    <div class="cont contGallery">
+        <div class="contFlex gallery">
+
+            <img src="../img/sfondi/sfondoGallery.png" class="background" alt="rettangoli colorati di background">
+
+            <div class="columnGallery">
+                <img src="../img/gallery/corniglia.jpg" id="gal1" title="Corniglia" alt="fotografia di una porta caratteristica di corniglia">
+                <img src="../img/gallery/riomaggiore.jpg" id="gal2" title="Riomaggiore" alt="fotografia di una mano che tiene un cartoccio pieno di pesce fritto, con il mare di riomaggiore sullo background">
+            </div>
+
+            <div class="columnGallery">
+
+                <img src="../img/gallery/portovenere.jpg" id="gal3" title="Portovenere" alt="fotografia di un promontorio roccioso circondato dal mare, con in mezzo la chiesa di portovenere">
+
+                <div class="rowGallery">
+
+                    <img src="../img/gallery/manarola.jpg" id="gal4" title="Manarola" alt="fotografia della scogliera di manarola, con terrazzamenti e casette colorate a picco sul mare">
+                    <img src="../img/gallery/monterosso.jpg" id="gal5" title="Monterosso" alt="fotografia dall'alto del mare di Monterosso">
+
+                </div>
+
+                <img src="../img/gallery/vernazza.jpg" id="gal6" title="Vernazza" alt="fotografia del porticciolo di Vernazza">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="cont">
+        <div class="addPhotoBox">
+            <div class="darkEmphasis">
+                Aggiungi le tue fotografie!
+            </div>
+            Hai visitato questi luoghi meravigliosi e hai qualche ricordo che vorresti condividere?
+            Inviaci i tuoi scatti migliori e diventa tu il protagonista!
+
+            <a class="button darkButton" href="mailto:l.nesossi@campus.unimib.it">Invia ora</a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="fooCards cont contFlex">
+
+            <div class="fooCard prima">
+                <div class="fooTitle">
+                    CONTATTACI
+                </div>
+                <div class="fooCaption">
+                    Se hai consigli o fotografie da inviarci, clicca qui
+
+                    <a href="mailto:l.nesossi@campus.unimib.it">
+                        <div class="fooIcon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="fooCard">
+                <div class="fooTitle">
+                    SCHEDA TECNICA
+                </div>
+                <div class="fooCaption">
+                    Scarica la scheda tecnica del patrimonio in versione pdf
+                    <div class="fooIcon">
+                        <a href="../schedaTecnica.pdf" target="_blank">
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fooCard">
+                <div class="fooTitle">
+                    STAY TUNED
+                </div>
+                <div class="fooCaption">
+                    Segui i social di Unesco per rimanere sempre aggiornato
+
+                    <div class="fooIcon">
+
+                        <a href="https://www.facebook.com/ParcoCinqueTerre/" target="_blank">
+                            <i class="fab fa-facebook-square"></i></a>
+
+                        <a href="https://www.instagram.com/parcocinqueterre/" target="_blank">
+                            <i class="fab fa-instagram-square"></i></a>
+
+                        <a href="https://twitter.com/parco5terre" target="_blank">
+                            <i class="fab fa-twitter-square"></i></a>
+
+                        <a href="http://www.parconazionale5terre.it/" target="_blank">
+                            <i class="fas fa-globe"></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fooCard ultima">
+                <div class="fooTitle">
+                    FONTI
+                </div>
+                <div class="fooCaption">
+                    Tutte le img sono state prese da Unsplash.com. Grazie a tutti gli autori per queste fotografie
+                    spettacolari.
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

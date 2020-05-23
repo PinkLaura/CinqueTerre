@@ -1,6 +1,6 @@
-/*aggiorno l'immagine di copertina delle meraviglie*/
-.copertina {
-    background: url(../immagini/copertine/copertinaPatrimonio.jpg);
+/*aggiorno l'immagine di cover delle meraviglie*/
+.cover {
+    background: url(../img/copertine/copertinaPatrimonio.jpg);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -11,7 +11,7 @@
     max-width: 100%;
     margin: 100px 0;
     
-    background: url(../immagini/sfondi/sfondoPaese.jpg);
+    background: url(../img/sfondi/sfondoPaese.jpg);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -35,7 +35,7 @@
 }
 
 /*Introduzione con descrizione del patrimonio*/
-#descrizionePatrimonio{
+#heritageDescription{
     max-width: 55rem;
     margin: auto;
 
@@ -44,12 +44,12 @@
     position: relative;
 }
 
-#descrizionePatrimonio img{
+#heritageDescription img{
     height: 40vh;
     padding: 1rem 0;
 }
 
-#descrizionePatrimonio p{
+#heritageDescription p{
     padding: 1rem;
 }
 
@@ -82,7 +82,7 @@
     
 }
 
-#techSheet .numero{
+#techSheet .number{
     font-size: 4.5rem;
 }
 
@@ -196,11 +196,11 @@
 }
 
 
-.contFlex .bottoneChiaro {
+.contFlex .lightButton {
     margin: 1.5rem auto 4rem;
 }
 
-.contFlex .evidenzaChiaro{
+.contFlex .lightEmphasis{
     margin: 0 auto;
 }
 
